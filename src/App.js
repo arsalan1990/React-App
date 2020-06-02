@@ -11,7 +11,7 @@ function App() {
           <code>Hello World</code><br/>
           Welcome to React<br/>
           By Arsalan<br/>
-          Clear Your Mind Of Can't.
+          <b>Clear Your Mind Of Can't.</b>
         </p>
         <a
           className="App-link"
