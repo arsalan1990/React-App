@@ -10,7 +10,7 @@ function App() {
         <p>
           <code>Hello World</code><br/>
           Welcome to React<br/>
-          By Arsalan
+          By Arsalan<br/>
         </p>
         <a
           className="App-link"
