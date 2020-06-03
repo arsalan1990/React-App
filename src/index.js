@@ -6,8 +6,9 @@ function Hi(){
 }
 ReactDOM.render(<Hi/>,document.querySelector('#root'));
 
-
-
+function greet(){
+  return 'Hi Doe';
+}
 
 
 
