@@ -26,4 +26,4 @@ function App() {
   );
 }
 
-export default Demo;
+export default App;
