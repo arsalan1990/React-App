@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 
+//*
 function Hi() {
   return <div>Hello World!</div>;
 }
-  function Hi(props) {
-  return <div>Hello {props.name}!</div>;
-  }
+//*
 
-ReactDOM.render(<Hi name="Dave"/>,document.querySelector('#root'));
+const element = <h1>Hello World</h1>;
+
+ReactDOM.render(element, document.getElementById('#root'));
 
 
 
