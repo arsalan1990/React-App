@@ -1,10 +1,13 @@
 import React from 'react';
 
 const Avatar = () => {
-    return <div>
+    return (
+    <div>
+        <img src="https://joeschmoe.io/api/v1/arsalan" alt="Avatar" />
     <h1> Alvin </h1>
     <p> Web Developer</p>
     </div>
+    )
 }
 
 export default Avatar;
