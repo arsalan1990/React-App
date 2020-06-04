@@ -7,24 +7,24 @@ const Avatar = (props) => {
 
     const avatarlist = [
         {
-            id=1,
-            name = "Alvin",
-            work = "Web Developer"
+            id:1,
+            name: "Alvin",
+            work: "Web Developer"
         },
         {
-            id=2,
-            name = "Johnny",
-            work = "Front End"
+            id:2,
+            name: "Johnny",
+            work: "Front End"
         },
         {
-            id=1,
-            name = "Rocky",
-            work = "Back End"
+            id:3,
+            name: "Rocky",
+            work: "Back End"
         },
         {
-            id=1,
-            name = "Codi",
-            work = "Data Base"
+            id=4,
+            name: "Codi",
+            work: "Data Base"
         }
     ]
     return ( <div>
