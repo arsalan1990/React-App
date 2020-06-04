@@ -22,7 +22,7 @@ const Avatar = (props) => {
             work: "Back End"
         },
         {
-            id=4,
+            id:4,
             name: "Codi",
             work: "Data Base"
         }
