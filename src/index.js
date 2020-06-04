@@ -14,6 +14,12 @@ ReactDOM.render(<Demo />, document.getElementById('root'));
 
 
 
+serviceWorker.unregister();
+
+
+
+
+
 
 
 
