@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 
 
 
-ReactDOM.render(<Demo />, document.getElementById('root'));
+ReactDOM.render(<Demo name="Arsalan" />, document.getElementById('root'));
 
 
 
