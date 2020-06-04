@@ -32,16 +32,16 @@ const Avatar = (props) => {
 
     <list id={avatarlist[0].name}
             name={avatarlist[0].name}
-            work={avatarlist[0].name}/>
+            work={avatarlist[0].work}/>
     <list id={avatarlist[1].name}
             name={avatarlist[1].name}
-            work={avatarlist[1].name}/>
+            work={avatarlist[1].work}/>
     <list id={avatarlist[2].name}
             name={avatarlist[2].name}
-            work={avatarlist[2].name}/>
+            work={avatarlist[2].work}/>
     <list id={avatarlist[3].name}
             name={avatarlist[3].name}
-            work={avatarlist[3].name}/>
+            work={avatarlist[3].work}/>
 
     <button>Subscribe</button> 
     </div> 
