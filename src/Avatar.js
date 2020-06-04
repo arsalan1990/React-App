@@ -4,7 +4,7 @@ import 'tachyons';
 
 const Avatar = () => {
     return (
-    <div class = "avatar_style ma4 bg-light-purple dib">
+    <div class = "avatar_style ma4 bg-light-purple dib pa4">
         <img src="https://joeschmoe.io/api/v1/alvin" alt="Avatar" />
     <h1 className=""> Alvin </h1>
     <p> Web Developer</p>
