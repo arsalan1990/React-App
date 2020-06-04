@@ -7,7 +7,11 @@ import * as serviceWorker from './serviceWorker';
 
 
 
-ReactDOM.render(<Avatar />, document.getElementById('root'));
+ReactDOM.render( <div> <Avatar />
+                <Avatar />  
+                <Avatar />
+                <Avatar /> </div>
+    , document.getElementById('root'));
 
 
 
