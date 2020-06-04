@@ -6,9 +6,9 @@ import Demo from './Component'
 import registerServiceWorker from './registerServiceWorker';
 
 
-const element = <h1>Hello World</h1>;
 
-ReactDOM.render(element, document.getElementById('root'));
+
+ReactDOM.render(<Demo />, document.getElementById('root'));
 
 
 
