@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import 'tachyons';
-import list from './list'
+import list from './list';
 
 const Avatar = (props) => {
 
