@@ -2,7 +2,7 @@ import React from 'react';
 
 const list = (props) => {
     return(
-    <div class = "avatar_style ma4 bg-light-purple dib pa4 tc">
+    <div class = "avatar_style ma4 bg-light-purple dib pa3 grow shadow-4 tc">
         <img src={`https://joeschmoe.io/api/v1/${props.name}`} alt="Avatar" />
     <h1 className=""> {props.name} </h1>
     <p> {props.work}</p>
