@@ -43,7 +43,8 @@ const Avatar = (props) => {
             name={avatarlist[3].name}
             work={avatarlist[3].name}/>
 
-    <button>Subscribe</button> </div>   
+    <button>Subscribe</button> 
+    </div> 
     )
 }
 
