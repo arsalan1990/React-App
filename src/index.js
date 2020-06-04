@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 import './index.css';
-import Demo from './Component'
+import Avatar from './Avatar'
 import * as serviceWorker from './serviceWorker';
 
 
 
 
-ReactDOM.render(<Demo name="Arsalan" />, document.getElementById('root'));
+ReactDOM.render(<Avatar />, document.getElementById('root'));
 
 
 
