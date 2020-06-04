@@ -6,7 +6,6 @@ function Hi() {
 }
 ReactDOM.render(<Hi/>,document.querySelector('#root'));
 
-}
 
 
 
