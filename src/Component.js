@@ -6,6 +6,7 @@ class Demo extends Component{
         return <div>
          <h1>Hello world</h1>
         <p> Welcome to my channel</p>
+        <p> This is my new tv channel.</p>
         </div>
     }
 }
