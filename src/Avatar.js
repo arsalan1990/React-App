@@ -1,14 +1,18 @@
 import React from 'react';
 import './style.css';
 import 'tachyons';
+import list from './list'
 
-const Avatar = () => {
-    return (
-    <div class = "avatar_style ma4 bg-light-purple dib pa4">
-        <img src="https://joeschmoe.io/api/v1/alvin" alt="Avatar" />
-    <h1 className=""> Alvin </h1>
-    <p> Web Developer</p>
-    </div>
+const Avatar = (props) => {
+    return ( <div>
+        <h1> Welcome to Avatar World </h1>
+
+    <list id="1" name="Alvin" work="Web Developer"/>
+    <list id="1" name="Johnny" work="Front End"/>
+    <list id="1" name="Rocky" work="Back End"/>
+    <list id="1" name="Codi" work="Designer"/>
+
+    <button>Subscribe</button> </div>   
     )
 }
 
